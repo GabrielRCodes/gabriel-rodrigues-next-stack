@@ -41,6 +41,7 @@ const Blog: React.FC<Props> = (props) => {
       </div>
       <style jsx>{`
         .post {
+          border-radius: 12px;
           background: white;
           transition: box-shadow 0.1s ease-in;
         }
